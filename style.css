@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background: black;
+    width: 100%;
+}
+nav ul{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+.innerContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+}
+form input{
+    width: 50%;
+}

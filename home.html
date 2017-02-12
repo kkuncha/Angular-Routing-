@@ -1,0 +1,24 @@
+<div class="innerContainer">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Contact Number</th>
+                <th>Gender</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="contact in contactList">
+                <td>{{contact.userName}}</td>
+                <td>{{contact.userAge}}</td>
+                <td>{{contact.userNumber}}</td>
+                <td>{{contact.userGender}}</td>
+                <td><a href="">Edit</a></td>
+                <td><a ng-click="deleteContact(contact.userId)">Delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
