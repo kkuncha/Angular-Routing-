@@ -1,6 +1,4 @@
-/**
- * Created by VenkatSandeep on 7/4/2015.
- */
+
 app.factory("userService",function(){
    var users=[];
     return{
