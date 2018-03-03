@@ -1,6 +1,4 @@
-/**
- * Created by VenkatSandeep on 7/10/2015.
- */
+
 app.controller("contactListController",function($scope, userService){
 
     $scope.contactList=userService.getAllUsers();
